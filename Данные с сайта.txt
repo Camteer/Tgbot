@@ -1,0 +1,58 @@
+https://api.telegram.org/bot6085756087:AAE2IWJtaeHyzAwkaUb4kE3uvmbvgJaSqos/getMe
+
+{"ok":true,
+	"result":
+		{"id":6085756087,
+		"is_bot":true,
+		"first_name":"MyfirstTGbot",
+		"username":"camteer_bot",
+		"can_join_groups":true,
+		"can_read_all_group_messages":false,
+		"supports_inline_queries":true}
+	}
+
+https://api.telegram.org/bot6085756087:AAE2IWJtaeHyzAwkaUb4kE3uvmbvgJaSqos/getUpdates
+
+{"ok":true,"result":[]}
+
+После активации бота по тойже ссылки 
+{
+  "ok": true,
+  "result": [
+    {
+      "update_id": 865213406,
+      "message": {
+        "message_id": 3,
+        "from": {
+          "id": 585558540,
+          "is_bot": false,
+          "first_name": "Евгений",
+          "username": "camter",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 585558540,
+          "first_name": "Евгений",
+          "username": "camter",
+          "type": "private"
+        },
+        "date": 1678812088,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      }
+    }
+  ]
+}
+https://api.telegram.org/bot6085756087:AAE2IWJtaeHyzAwkaUb4kE3uvmbvgJaSqos/sendMessage?chat_id=585558540&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82,%20Mikhail!
+
+
+
+
+
+https://api.telegram.org/bot5424991242:AAGwomxQz1p46bRi_2m3V7kvJlt5RjK9xr0/getUpdates?offset=-2
